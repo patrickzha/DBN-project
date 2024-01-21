@@ -1,0 +1,46 @@
+time: 100 min
+```
+training vis--hid
+learning CD1
+iteration=      0 recon_loss=0.1341
+iteration=    100 recon_loss=0.0350
+iteration=    200 recon_loss=0.0305
+iteration=    300 recon_loss=0.0286
+iteration=    400 recon_loss=0.0280
+iteration=    500 recon_loss=0.0272
+iteration=    600 recon_loss=0.0270
+iteration=    700 recon_loss=0.0266
+iteration=    800 recon_loss=0.0262
+iteration=    900 recon_loss=0.0261
+training hid--pen
+learning CD1
+iteration=      0 recon_loss=0.3771
+iteration=    100 recon_loss=0.1177
+iteration=    200 recon_loss=0.0829
+iteration=    300 recon_loss=0.0674
+iteration=    400 recon_loss=0.0585
+iteration=    500 recon_loss=0.0523
+iteration=    600 recon_loss=0.0475
+iteration=    700 recon_loss=0.0441
+iteration=    800 recon_loss=0.0414
+iteration=    900 recon_loss=0.0390
+training pen+lbl--top
+Pen im:  (5000, 500)
+Labels:  (5000, 10)
+train_label:  (5000, 510)
+learning CD1
+iteration=      0 recon_loss=0.4117
+iteration=    100 recon_loss=0.0477
+iteration=    200 recon_loss=0.0240
+iteration=    300 recon_loss=0.0159
+iteration=    400 recon_loss=0.0121
+iteration=    500 recon_loss=0.0100
+iteration=    600 recon_loss=0.0082
+iteration=    700 recon_loss=0.0073
+iteration=    800 recon_loss=0.0066
+iteration=    900 recon_loss=0.0060
+Shapes:  (5000, 500) (5000, 10)
+accuracy = 83.02%
+Shapes:  (10000, 500) (10000, 10)
+accuracy = 80.51%
+```
